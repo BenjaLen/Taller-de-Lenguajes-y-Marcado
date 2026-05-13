@@ -143,4 +143,11 @@ footer{
     padding: 1.5rem;
     margin-top: rem;
 }
+#Formulario{
+    padding: 20px;
+    border-radius:10 px;
+}
+legend{
+    text-align: center;
+}
 
