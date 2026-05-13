@@ -1,0 +1,125 @@
+/*variables de la paleta de la pagina*/
+:root {
+    --color-primario: #1a2b4A ;
+    --color-acento: #028090 ;
+    --color-fondo: #f7f9fa ;
+    --color-texto: #1A1A1A ;
+    --color-texto-claro: #FFFFFF ;
+    --fuente-principal:"Inter". sans-serif; 
+ }
+
+ /*reset basico*/
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ /*estilos globales del documento*/
+
+ body{
+    font-family: var(--fuente-principal);
+    font-size: 16px;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+ }
+
+ /*tipografia H*/
+
+ h1{
+    font-size: 2rem; color: var(--color-primario);
+ }
+
+ h2{
+    font-size: 1.5rem; color:var(--color-primario);
+ }
+ h3{
+    font-size: 1.25rem; color:var(--color-acento);
+ }
+ p{
+    margin-bottom: 1rem;
+ }
+
+
+/*header*/
+
+header{
+    background-color: var(--color-primario);
+    color: var(--color-texto-claro);
+    padding: 1rem 1.5rem;
+}
+
+header h1{
+    color: var(--color-texto);
+}
+
+header h2{
+    color: var(--color-acento);
+}
+
+/*navegacion*/
+
+nav{
+    margin-top: 0.5rem;
+}
+
+nav a{
+    color:var(--color-acento);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color: var(--color-texto-claro);
+    text-decoration: underline;
+}
+
+/*main*/
+main{
+    padding:2rem ;
+}
+
+section{
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1pxsolid var(--color-acento);
+}
+/*figure - imagenes*/
+figure{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-items: center;
+}
+
+/*las imagenes dentro de la galeria*/
+figure img{
+    width: 200px;/*ancho fijo de pixeles. Podes usar procentaje si queres => 100%*/
+    height: 180px;/* alto fijo de pixeles. Podes usar procentaje si queres => 100%*/
+    object-fit: cover;/*recorto la imagen manteniendo la proporcion*/
+    border-radius: 5px;/*redondedo las esquinas de las imagenes*/
+    align-items: center;
+}
+
+figcaption{
+    grid-column: 1/-1;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/*footer*/
+footer{
+    background-color: var(--color-primario);
+    color: var(--color-texto-claro);
+    padding: 1.5rem;
+    margin-top: rem;
+}
+
+footer a{
+
+}
