@@ -1,11 +1,11 @@
 /*variables de la paleta de la pagina*/
 :root {
-    --color-primario: #1a2b4A ;
-    --color-acento: #028090 ;
-    --color-fondo: #f7f9fa ;
+    --color-primario: #1d862b ;
+    --color-acento: #ffffff ;
+    --color-fondo: #a5e9ae ;
     --color-texto: #1A1A1A ;
-    --color-texto-claro: #FFFFFF ;
-    --fuente-principal:"Inter". sans-serif; 
+    --color-texto-claro: #42e233 ;
+    --fuente-principal: "Trebuchet MS", sans-serif; 
  }
 
  /*reset basico*/
@@ -27,6 +27,15 @@
     margin: 0 auto;
     padding: 0 1rem;
  }
+
+nav { display: flex; gap: 2.5rem; align-items: center;}
+
+nav a {
+    font-family: var(--fuente-principal);
+    font-size: 20px;
+    position: relative;
+    transition: color .45s;
+}
 
  /*tipografia H*/
 
@@ -51,8 +60,17 @@ header{
     background-color: var(--color-primario);
     color: var(--color-texto-claro);
     padding: 1rem 1.5rem;
-    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-    align-items: center
+    position: static; top: 0; left: 0; right: 0; z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img { height: 85px; width: auto; transition: transform .3s;
 }
 
 header h1{
@@ -67,12 +85,16 @@ header h2{
 
 nav{
     margin-top: 0.5rem;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
 }
 
 nav a{
     color:var(--color-acento);
     text-decoration: none;
     font-weight: 600;
+    position: relative;
 }
 
 nav a:hover{
@@ -122,6 +144,3 @@ footer{
     margin-top: rem;
 }
 
-footer a{
-
-}
