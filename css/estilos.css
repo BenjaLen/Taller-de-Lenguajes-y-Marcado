@@ -263,10 +263,25 @@ footer a:hover{
 /*formulario*/
 #Formulario{
     padding:20px;
-
     border-radius:10px;
+}
+
+.titformulario{
+    font-size: 60px; 
 }
 
 legend{
     text-align:center;
+}
+
+.pasos{
+    max-width:1000px;
+    margin:0 auto;
+    background:var(--color-acento);
+    padding:4rem;
+    margin-bottom:2rem;
+    border-radius:30px;
+}
+.textopasos{
+    font-size: 30px; 
 }
