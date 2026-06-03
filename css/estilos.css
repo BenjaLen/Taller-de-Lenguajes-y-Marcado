@@ -262,8 +262,11 @@ footer a:hover{
 
 /*formulario*/
 #Formulario{
-    padding:20px;
-    border-radius:10px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    width: 500px;
 }
 
 .titformulario{
@@ -275,13 +278,53 @@ legend{
 }
 
 .pasos{
-    max-width:1000px;
-    margin:0 auto;
-    background:var(--color-acento);
-    padding:4rem;
-    margin-bottom:2rem;
-    border-radius:30px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    max-width: 500px;
 }
 .textopasos{
     font-size: 30px; 
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.pasos h2 {
+    color: #1b5e20;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1b5e20;
+    transform: translateY(-2px);
 }
