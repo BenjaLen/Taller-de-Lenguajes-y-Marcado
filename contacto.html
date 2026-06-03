@@ -26,58 +26,60 @@
 </header>
     <main>
         <h1 class="titformulario">Queres sumarte?</h1>
-        <section class="pasos">
-            <h2>Pasos para sumarte a nuestro equipo:</h2>
-            <ol class="textopasos">
-                <li>Conocé la organización. Informate sobre nuestra misión, valores y proyectos actuales para entender cómo trabajamos por el medio ambiente.</li>
-                <li>Elegí cómo querés participar. Podés sumarte como voluntario, colaborador en campañas, o aportar desde tus conocimientos (comunicación, educación, ciencia, etc.).</li>
-                <li>Contactanos. Completa el <a href="#Formulario">formulario</a> que esta aqui abajo.</li>
-                <li>Entrevista inicial. Te enviaremos un Mail donde coordinaremos una charla breve para conocerte mejor y orientarte dentro del equipo.</li>
-                <li>Capacitación básica. Recibís una introducción sobre nuestras actividades, objetivos y buenas prácticas ambientales.</li>
-                <li>Asignación a un proyecto. Te incorporamos a un equipo según tus intereses y habilidades.</li>
-                <li>¡Empezá a participar!. Sumate a actividades, campañas y acciones concretas para generar impacto positivo.</li>
-                <li>Seguimiento y crecimiento. Evaluamos tu experiencia y te damos oportunidades para seguir creciendo dentro de la organización.</li>
-            </ol>
-        </section>
-        <section id="Formulario">
-            <h3>Formulario de Inscripcion</h3>
-            <form action="#" method="post"></form>
-                <fieldset>
-                    <legend>Datos Personales</legend>
-                    <label for="nombre">Nombre y Apellido:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Marcos Ruben" required>
+        <div class="contacto">
+            <section class="pasos">
+                <h2>Pasos para sumarte a nuestro equipo:</h2>
+                <ol class="textopasos">
+                    <li>Conocé la organización. Informate sobre nuestra misión, valores y proyectos actuales para entender cómo trabajamos por el medio ambiente.</li>
+                    <li>Elegí cómo querés participar. Podés sumarte como voluntario, colaborador en campañas, o aportar desde tus conocimientos (comunicación, educación, ciencia, etc.).</li>
+                    <li>Contactanos. Completa el <a href="#Formulario">formulario</a> que esta aqui abajo.</li>
+                    <li>Entrevista inicial. Te enviaremos un Mail donde coordinaremos una charla breve para conocerte mejor y orientarte dentro del equipo.</li>
+                    <li>Capacitación básica. Recibís una introducción sobre nuestras actividades, objetivos y buenas prácticas ambientales.</li>
+                    <li>Asignación a un proyecto. Te incorporamos a un equipo según tus intereses y habilidades.</li>
+                    <li>¡Empezá a participar!. Sumate a actividades, campañas y acciones concretas para generar impacto positivo.</li>
+                    <li>Seguimiento y crecimiento. Evaluamos tu experiencia y te damos oportunidades para seguir creciendo dentro de la organización.</li>
+                </ol>
+            </section>
+            <section id="Formulario">
+                <h3>Formulario de Inscripcion</h3>
+                <form action="#" method="post"></form>
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <label for="nombre">Nombre y Apellido:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej: Marcos Ruben" required>
 
-                    <label for="edad">Edad:</label>
-                    <input type="text" id="edad" name="edad" placeholder="20" required>
+                        <label for="edad">Edad:</label>
+                        <input type="text" id="edad" name="edad" placeholder="20" required>
 
-                    <label for="dni">DNI:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ej: 12345678" required>
-                </fieldset>
-                <fieldset>
-                    <legend>Datos de Contacto</legend>
-                    <label for="email">Correo Electronico:</label>
-                    <input type="email" id="email" name="email" placeholder="Ej: marcosruben@gmail.com" required>
+                        <label for="dni">DNI:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej: 12345678" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos de Contacto</legend>
+                        <label for="email">Correo Electronico:</label>
+                        <input type="email" id="email" name="email" placeholder="Ej: marcosruben@gmail.com" required>
 
-                    <label for="telefono">Telefono:</label>
-                    <input type="tel" name="telefono" id="telefono" placeholder="Ej: +54 9 11 1234 5678" required>
-                </fieldset>
-            
-                <fieldset>
-                    <legend>Unite a nosotros</legend>
-                    <label for="programa">Programa de interes</label>
-                    <select name="programa" id="programa">
-                        <option value="">Elegir Programa...</option>
-                        <option value="rfu">Reforestacion Urbana</option>
-                        <option value="rco">Reciclajes Comunitarios</option>
-                        <option value="edu">Educacion Ambiental</option>
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Ej: +54 9 11 1234 5678" required>
+                    </fieldset>
+                
+                    <fieldset>
+                        <legend>Unite a nosotros</legend>
+                        <label for="programa">Programa de interes</label>
+                        <select name="programa" id="programa">
+                            <option value="">Elegir Programa...</option>
+                            <option value="rfu">Reforestacion Urbana</option>
+                            <option value="rco">Reciclajes Comunitarios</option>
+                            <option value="edu">Educacion Ambiental</option>
+                            
+                        </select>
+                        <label for="mensaje">Contanos algo de vos y porque queres sumarte:</label>
+                        <textarea name="mensaje" id="mensaje" rows="3" placeholder="Contanos..."></textarea>
+                        <button type="submit">Enviar inscripcion</button>
+                    </fieldset>
                         
-                    </select>
-                    <label for="mensaje">Contanos algo de vos y porque queres sumarte:</label>
-                    <textarea name="mensaje" id="mensaje" rows="3" placeholder="Contanos..."></textarea>
-                    <button type="submit">Enviar inscripcion</button>
-                </fieldset>
-                    
-        </section>
+            </section>
+        </div>
     </main>
     <footer id="contacto">
 
