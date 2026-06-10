@@ -32,7 +32,7 @@
                 <ol class="textopasos">
                     <li>Conocé la organización. Informate sobre nuestra misión, valores y proyectos actuales para entender cómo trabajamos por el medio ambiente.</li>
                     <li>Elegí cómo querés participar. Podés sumarte como voluntario, colaborador en campañas, o aportar desde tus conocimientos (comunicación, educación, ciencia, etc.).</li>
-                    <li>Contactanos. Completa el <a href="#Formulario">formulario</a> que esta aqui abajo.</li>
+                    <li>Contactanos. Completa el <a href=".formulario">formulario</a> que esta aqui abajo.</li>
                     <li>Entrevista inicial. Te enviaremos un Mail donde coordinaremos una charla breve para conocerte mejor y orientarte dentro del equipo.</li>
                     <li>Capacitación básica. Recibís una introducción sobre nuestras actividades, objetivos y buenas prácticas ambientales.</li>
                     <li>Asignación a un proyecto. Te incorporamos a un equipo según tus intereses y habilidades.</li>
@@ -40,9 +40,9 @@
                     <li>Seguimiento y crecimiento. Evaluamos tu experiencia y te damos oportunidades para seguir creciendo dentro de la organización.</li>
                 </ol>
             </section>
-            <section id="Formulario">
+            <section class="formulario">
                 <h3>Formulario de Inscripcion</h3>
-                <form action="#" method="post"></form>
+                <form action="#" method="post">
                     <fieldset>
                         <legend>Datos Personales</legend>
                         <label for="nombre">Nombre y Apellido:</label>
@@ -52,7 +52,7 @@
                         <input type="text" id="edad" name="edad" placeholder="20" required>
 
                         <label for="dni">DNI:</label>
-                        <input type="text" id="nombre" name="nombre" placeholder="Ej: 12345678" required>
+                        <input type="text" id="dni" name="dni" placeholder="Ej: 12345678" required>
                     </fieldset>
                     <fieldset>
                         <legend>Datos de Contacto</legend>
@@ -75,9 +75,10 @@
                         </select>
                         <label for="mensaje">Contanos algo de vos y porque queres sumarte:</label>
                         <textarea name="mensaje" id="mensaje" rows="3" placeholder="Contanos..."></textarea>
-                        <button type="submit">Enviar inscripcion</button>
-                    </fieldset>
                         
+                    </fieldset>
+                    <button type="submit">Enviar inscripcion</button>
+                </form>
             </section>
         </div>
     </main>
