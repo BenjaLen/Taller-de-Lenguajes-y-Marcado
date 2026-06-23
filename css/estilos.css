@@ -175,6 +175,17 @@ figure{
     border-radius:12px;
 }
 
+.imagen-card {
+    height: 200px;
+    object-fit: cover;
+}
+
+.imagen-mini {
+    height: 80px;
+    width: 100%;
+    object-fit: cover;
+}
+
 figcaption{
     grid-column:1/-1;
 
