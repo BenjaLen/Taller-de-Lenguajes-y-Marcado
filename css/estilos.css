@@ -359,3 +359,10 @@ form {
 ol li{
     margin-bottom: 12px;
 }
+
+.nosotros{
+    background-color: var(--color-acento);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 500px;
+}
