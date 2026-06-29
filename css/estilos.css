@@ -276,7 +276,7 @@ footer a:hover{
     background-color: var(--color-acento);
     padding: 30px;
     border-radius: 15px;
- 
+    border-color: var(--color-texto);
     
 }
 
@@ -298,20 +298,15 @@ legend{
     background-color: var(--color-acento);
     padding: 30px;
     border-radius: 20px;
-    max-width: 500px;
+    /*max-width: 500px;
+    border-color: var(--color-texto);*/
 }
 .textopasos{
     font-size: 18px;
     line-height: 1.6;
 }
 
-.contacto{
-    display: flex;
-    flex-direction: column; /* uno debajo del otro */
-    align-items: center;    /* centra horizontalmente */
-    gap: 20px;
-    padding: 20px;
-}
+
 
 input,
 select,
@@ -351,11 +346,7 @@ button:hover {
     transform: translateY(-2px);
 }
 
-.pasos,
-form {
-    width: 90%;
-    max-width: 900px;
-}
+
 ol li{
     margin-bottom: 12px;
 }
