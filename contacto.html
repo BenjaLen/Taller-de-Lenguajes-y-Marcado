@@ -26,7 +26,7 @@
 
 </header>
     <main>
-        <h1 class="titformulario">Queres sumarte?</h1>
+        <h1 class="titformulario">¿Querés sumarte?</h1>
         <div class="container">
             <div class="row justify-content-between">
                 <section class="pasos col-12 col-md-12 col-lg-5">
@@ -44,25 +44,25 @@
             </section>
             <section class="formulario col-12 col-md-12 col-lg-6" id="formulario">
                 <h3>Formulario de Inscripcion</h3>
-                <form action="#" method="post">
+                <form id="form-insc" action="#" method="post">
                     <fieldset>
                         <legend>Datos Personales</legend>
                         <label for="nombre">Nombre y Apellido:</label>
-                        <input type="text" id="nombre" name="nombre" placeholder="Ej: Marcos Ruben" required>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej: Marcos Ruben">
 
                         <label for="edad">Edad:</label>
-                        <input type="text" id="edad" name="edad" placeholder="20" required>
+                        <input type="text" id="edad" name="edad" placeholder="20">
 
                         <label for="dni">DNI:</label>
-                        <input type="text" id="dni" name="dni" placeholder="Ej: 12345678" required>
+                        <input type="text" id="dni" name="dni" placeholder="Ej: 12345678">
                     </fieldset>
                     <fieldset>
                         <legend>Datos de Contacto</legend>
                         <label for="email">Correo Electronico:</label>
-                        <input type="email" id="email" name="email" placeholder="Ej: marcosruben@gmail.com" required>
+                        <input type="email" id="email" name="email" placeholder="Ej: marcosruben@gmail.com">
 
                         <label for="telefono">Telefono:</label>
-                        <input type="tel" name="telefono" id="telefono" placeholder="Ej: +54 9 11 1234 5678" required>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Ej: +54 9 11 1234 5678">
                     </fieldset>
                 
                     <fieldset>
@@ -81,6 +81,7 @@
                     </fieldset>
                     <button type="submit">Enviar inscripcion</button>
                 </form>
+                <p id="msg-insc"></p>
             </section>
             </div>
             
@@ -143,5 +144,6 @@
     </div>
 
 </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
