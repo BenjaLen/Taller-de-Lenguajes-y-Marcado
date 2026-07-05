@@ -1,24 +1,86 @@
-// Validación del formulario
+//Validaciones del Formulario
+
 const formInsc = document.getElementById("form-insc");
 const msgInsc = document.getElementById("msg-insc");
 
-if (formInsc) {
-  formInsc.addEventListener("submit", (e) => {
-    e.preventDefault();
+formInsc.addEventListener("submit", (e) => {e.preventDefault();
+    const inputNombre = document.getElementById("nombre");
+    const nombre = inputNombre.value.trim();
 
-    const nombre = document.getElementById("nombre").value.trim();
 
-    if (!nombre) {
-      msgInsc.textContent = "Ingresá todos los datos para sumarte.";
-      msgInsc.className = "error";
-      return;
-    }
+  if (nombre === "") {
+    inputNombre.style.border="2px solid red"
+    msgInsc.textContent = "Ingresá todos los datos para sumarte.";
+    msgInsc.className = "error";
+    return;
+  } else {
+    inputNombre.style.border=""
+  }
+    const inputEdad = document.getElementById("edad");
+    const edad = inputEdad.value.trim();
 
-    msgInsc.textContent = `¡Gracias, ${nombre}! por sumarte al cuidado del medio ambiente.`;
-    msgInsc.className = "exito";
-    formInsc.reset();
-  });
-}
+  if (edad === "") {
+    inputEdad.style.border="2px solid red"
+    msgInsc.textContent = "Ingresá todos los datos para sumarte.";
+    msgInsc.className = "error";
+    return;
+  } else {
+    inputEdad.style.border=""
+  }  
+
+    const inputDNI = document.getElementById("dni");
+    const dni = inputDNI.value.trim();
+
+    if (dni === "") {
+    inputDNI.style.border="2px solid red"
+    msgInsc.textContent = "Ingresá todos los datos para sumarte.";
+    msgInsc.className = "error";
+    return;
+  } else {
+    inputDNI.style.border=""
+  }
+
+    const inputEmail = document.getElementById("email");
+    const email = inputEmail.value.trim();
+
+    if (email === "") {
+    inputEmail.style.border="2px solid red"
+    msgInsc.textContent = "Ingresá todos los datos para sumarte.";
+    msgInsc.className = "error";
+    return;
+  } else {
+    inputEmail.style.border=""
+  }
+
+    const inputTelefono = document.getElementById("telefono");
+    const telefono = inputTelefono.value.trim();
+
+    if (telefono === "") {
+    inputTelefono.style.border="2px solid red"
+    msgInsc.textContent = "Ingresá todos los datos para sumarte.";
+    msgInsc.className = "error";
+    return;
+  } else {
+    inputTelefono.style.border=""
+  }
+
+    const inputPrograma = document.getElementById("programa");
+    const programa = inputPrograma.value.trim();
+    
+    if (programa === "") {
+    inputPrograma.style.border="2px solid red"
+    msgInsc.textContent = "Ingresá todos los datos para sumarte.";
+    msgInsc.className = "error";
+    return;
+  } else {
+    inputPrograma.style.border=""
+  }
+
+  msgInsc.textContent =
+    `¡Gracias, ${nombre}! por sumarte al cuidado del medio ambiente.`;
+  msgInsc.className = "exito";
+  formInsc.reset();
+});
 
 //contador artificial" en nosotros
 
