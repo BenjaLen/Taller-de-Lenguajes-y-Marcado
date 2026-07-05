@@ -298,53 +298,37 @@ button:hover{
     background-color:var(--color-texto);
 }
 
-/*.link-ub{
-    
-    height: 220px;
-    margin: 4%;
-    border-radius: 12px;
-
-   
-}
-
-.aside-text{
-    background-color: white;
-
-    width: 60%;
-    padding: 3%;
-
-    border-radius: 10px;
-    color: black;
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 10%;
-}
-*/
-
 .banner-contacto{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOf3_kKodRDyXG1rR6GPzNdBeYqU3pa2-LrZ2obJLEXQ&s=10);
+    background-image: url(https://img.magnific.com/foto-gratis/conservacion-ambiental-jardin-ninos_1150-15276.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     height: 400px;
     width: 50%;
     margin: 4%;
     margin-left: 23%;
     border-radius: 12px;
-    position: relative;        
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    text-align: center;     
 }
 
 
 .banner-texto-contacto{
-    position: absolute;
     right: 20%;
     bottom: 30%;
-    color: var(--color-acento);
+    color: black;
     max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
 }
 
 .banner-texto-contacto h1{
-    color: var(--color-acento);
+    color: black;
     font-size: 3rem;
     margin-bottom: 20px;
 }
@@ -352,6 +336,26 @@ button:hover{
 .banner-texto-contacto p{
     font-size: 1.3rem;
     line-height: 1.6;
+}
+
+.entre-todos{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.img-pasos{
+    height: 70%;
+    width: 70%;
+    border-radius: 10%;
+}
+.text-img{
+    text-align: center;
 }
 
 
