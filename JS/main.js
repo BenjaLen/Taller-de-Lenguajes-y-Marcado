@@ -128,3 +128,11 @@ if (voluntarios) {
   contar(arboles, 500);
   contarAnio(trayectoria, 2021, anioActual);
 }
+
+// Botón volver arriba
+document.addEventListener('DOMContentLoaded', () => {
+    const btnArriba = document.getElementById('btnArriba');
+    btnArriba.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+});
