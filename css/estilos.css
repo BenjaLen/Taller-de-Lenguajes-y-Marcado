@@ -242,12 +242,6 @@ footer a:hover{
     border-radius:15px;
 }
 
-.titformulario{
-    font-size:48px;
-    text-align:center;
-    margin:20px 0;
-}
-
 legend{
     text-align:center;
     padding:0 12px;
@@ -303,6 +297,63 @@ button{
 button:hover{
     background-color:var(--color-texto);
 }
+
+/*.link-ub{
+    
+    height: 220px;
+    margin: 4%;
+    border-radius: 12px;
+
+   
+}
+
+.aside-text{
+    background-color: white;
+
+    width: 60%;
+    padding: 3%;
+
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+*/
+
+.banner-contacto{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOf3_kKodRDyXG1rR6GPzNdBeYqU3pa2-LrZ2obJLEXQ&s=10);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+    margin: 4%;
+    margin-left: 23%;
+    border-radius: 12px;
+    position: relative;        
+}
+
+
+.banner-texto-contacto{
+    position: absolute;
+    right: 20%;
+    bottom: 30%;
+    color: var(--color-acento);
+    max-width: 550px;
+}
+
+.banner-texto-contacto h1{
+    color: var(--color-acento);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner-texto-contacto p{
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
 
 /* nosotrps */
 .nosotros{
